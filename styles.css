@@ -1,0 +1,182 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.donate-area {
+    margin-top: 100px;
+}
+
+.center-div {
+    text-align: center;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    border-color: #FF5959;
+    margin-right: auto;
+    padding: 12px 25px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.donate-amount-area {
+    margin-top: 100px;
+}
+
+.donate-amount {
+    background-color: #FAFAFA;
+    margin: 20px;
+    padding: 50px 60px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.default-amount {
+    border: 1px solid #FF5959;
+    background-color: #FFEEEE;
+    border-radius: 5px;
+}
+
+#amount-input {
+    margin-top: 30px;
+    padding: 20px 300px;
+    font-size: 25px;
+    background-color: white;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-color: lightgray;
+    ;
+
+}
+
+#amount-input:focus {
+    outline: none;
+}
+
+.donate-plan-area {
+    margin-top: 100px;
+}
+
+.donate-plan-area img {
+    width: 80px;
+
+}
+
+.plan-items-area {
+    display: flex;
+    margin: 20px;
+}
+
+#foods {
+    border: 1px solid rgba(79, 157, 166, 0.1);
+    background-color: rgba(79, 157, 166, 0.1);
+    margin-left: 20px;
+}
+
+.shelter {
+    border: 1px solid #FF59591A;
+    background-color: #FF59591A;
+}
+
+.education {
+    border: 1px solid #FFF4D6;
+    background-color: #FFF4D6;
+}
+
+.plan-items-centered {
+    border-radius: 5px;
+    height: 300px;
+    width: 600px;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.update-area {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.update-input {
+    background-color: #FFF4D6;
+    margin: 40px 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.update-input input {
+    padding: 15px 50px;
+    background-color: lightgray;
+    border: lightgray;
+    border-radius: 5px;
+}
+
+.subscribe-button {
+    padding: 15px 50px;
+    border: salmon;
+    background-color: salmon;
+    color: white;
+    border-radius: 2px;
+}
+
+footer {
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #0B0D17;
+    color: orangered;
+    text-align: center;
+}
+
+.free-camp-area {
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.free-camp-area img {
+    width: 200px;
+}
+
+.blood-camp {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: red;
+    color: white;
+}
+
+.eye-camp {
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: blue;
+    margin-left: 40px;
+    padding: 20px;
+    color: white;
+}
